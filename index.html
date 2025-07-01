@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <nav id="desk-nav">
+        <div class="logo">
+            <img src="./assets/logo.png" id="sylogo">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#desk-nav" onclick="location.reload();">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#techstack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mob-nav">
+        <div class="logo">Shlok Yadav</div>
+        <div class="mob-menu">
+            <div class="mob-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <aside>
+        <a href="https://www.linkedin.com/in/shlokyadav37/" target="_blank">
+            <img src="./assets/linkedin.png" alt="linkedin" class="socials linkedin">
+        </a>
+        <a href="https://github.com/yadavshlok" target="_blank">
+            <img src="./assets/github.png" alt="linkedin" class="socials github">
+        </a>
+        <a href="mailto:yadavshlok37@gmail.com" target="_blank">
+            <img src="./assets/mail.png" alt="linkedin" class="socials mail">
+        </a>
+    </aside>
+    <section id="profile">
+        <div class="prof">
+            <div id="sec-text" class="animate__animated animate__fadeInUp">
+                <p class="sec-text-p1">Hi,</p>
+                <p class="sec-text-p2">My name is</p>
+                <h1 class="name">Shlok Yadav</h1>
+                <p class="sec-text-p3">I build apps and mess with some web stuff</p>
+            </div>
+            <div id="pic-con" class="animate__animated animate__fadeInRight">
+                <img src="./assets/profile.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+</html>
