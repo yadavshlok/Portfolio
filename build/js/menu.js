@@ -17,9 +17,6 @@ function menuToggle(params) {
 }
 
 
-
-//Projects Lists
-
 const projectList = [
 
   {

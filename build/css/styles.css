@@ -663,15 +663,63 @@ video {
 
 .footer{
   display: flex;
-  height: 8rem;
+  height: 20%;
   width: 80%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 2rem;
+  padding-bottom: 3rem;
   color: white;
   gap: 3rem;
 }
 
 .mail-text{
   display: inline;
+}
+
+
+.socials-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.my-socials-img{
+  width: 20rem;
+}
+
+.footer-icons{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.info-icon-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info-icon{
+  height: 4rem;
+}
+
+.socials-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 4rem;
+}
+
+.info-title
+{
+  font-weight: 600;
+}
+
+.info-text{
+  color: rgb(209 213 219);
 }
